@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/work/code/AndroidProjects/SurfaceViewTest/app/.cxx/Debug/6v145132/arm64-v8a",
+  "command": "D:\\ANDROID_SDK\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=D:/ANDROID_SDK/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/ANDROID_SDK/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_camera2_jni_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\native-camera2-jni.dir\\native-camera2-jni.cpp.o -c D:\\work\\code\\AndroidProjects\\SurfaceViewTest\\app\\src\\main\\jni\\native-camera2-jni.cpp",
+  "file": "D:\\work\\code\\AndroidProjects\\SurfaceViewTest\\app\\src\\main\\jni\\native-camera2-jni.cpp"
+}
+]

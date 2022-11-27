@@ -1,0 +1,7 @@
+Executable : D:\ANDROID_SDK\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+D:\work\code\AndroidProjects\SurfaceViewTest\app\.cxx\Debug\6v145132\armeabi-v7a
+native-camera2-jni
+jvmArgs : 
+

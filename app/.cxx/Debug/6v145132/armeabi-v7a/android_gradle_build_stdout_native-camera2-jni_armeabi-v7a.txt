@@ -1,0 +1,68 @@
+ninja: Entering directory `D:\work\code\AndroidProjects\SurfaceViewTest\app\.cxx\Debug\6v145132\armeabi-v7a'
+[1/2] Building CXX object CMakeFiles/native-camera2-jni.dir/native-camera2-jni.cpp.o
+FAILED: CMakeFiles/native-camera2-jni.dir/native-camera2-jni.cpp.o 
+D:\ANDROID_SDK\ndk\21.4.7075529\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=armv7-none-linux-androideabi21 --gcc-toolchain=D:/ANDROID_SDK/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/ANDROID_SDK/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dnative_camera2_jni_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/native-camera2-jni.dir/native-camera2-jni.cpp.o -MF CMakeFiles\native-camera2-jni.dir\native-camera2-jni.cpp.o.d -o CMakeFiles/native-camera2-jni.dir/native-camera2-jni.cpp.o -c D:/work/code/AndroidProjects/SurfaceViewTest/app/src/main/jni/native-camera2-jni.cpp
+D:/work/code/AndroidProjects/SurfaceViewTest/app/src/main/jni/native-camera2-jni.cpp:31:8: error: unknown type name 'ACameraDevice'
+static ACameraDevice *cameraDevice;
+       ^
+D:/work/code/AndroidProjects/SurfaceViewTest/app/src/main/jni/native-camera2-jni.cpp:32:8: error: unknown type name 'ACaptureRequest'
+static ACaptureRequest *captureRequest;
+       ^
+D:/work/code/AndroidProjects/SurfaceViewTest/app/src/main/jni/native-camera2-jni.cpp:33:8: error: unknown type name 'ACameraOutputTarget'
+static ACameraOutputTarget *cameraOutputTarget;
+       ^
+D:/work/code/AndroidProjects/SurfaceViewTest/app/src/main/jni/native-camera2-jni.cpp:34:8: error: unknown type name 'ACameraOutputTarget'
+static ACameraOutputTarget *baseOutputTarget;
+       ^
+D:/work/code/AndroidProjects/SurfaceViewTest/app/src/main/jni/native-camera2-jni.cpp:36:8: error: unknown type name 'ACaptureSessionOutput'
+static ACaptureSessionOutput *sessionOutput;
+       ^
+D:/work/code/AndroidProjects/SurfaceViewTest/app/src/main/jni/native-camera2-jni.cpp:37:8: error: unknown type name 'ACaptureSessionOutput'
+static ACaptureSessionOutput *baseSessionOutput;
+       ^
+D:/work/code/AndroidProjects/SurfaceViewTest/app/src/main/jni/native-camera2-jni.cpp:38:8: error: unknown type name 'ACaptureSessionOutputContainer'
+static ACaptureSessionOutputContainer *captureSessionOutputContainer;
+       ^
+D:/work/code/AndroidProjects/SurfaceViewTest/app/src/main/jni/native-camera2-jni.cpp:39:8: error: unknown type name 'ACameraCaptureSession'
+static ACameraCaptureSession *captureSession;
+       ^
+D:/work/code/AndroidProjects/SurfaceViewTest/app/src/main/jni/native-camera2-jni.cpp:41:8: error: unknown type name 'ACameraDevice_StateCallbacks'
+static ACameraDevice_StateCallbacks deviceStateCallbacks;
+       ^
+D:/work/code/AndroidProjects/SurfaceViewTest/app/src/main/jni/native-camera2-jni.cpp:42:8: error: unknown type name 'ACameraCaptureSession_stateCallbacks'
+static ACameraCaptureSession_stateCallbacks captureSessionStateCallbacks;
+       ^
+D:/work/code/AndroidProjects/SurfaceViewTest/app/src/main/jni/native-camera2-jni.cpp:44:58: error: unknown type name 'ACameraDevice'
+static void camera_device_on_disconnected(void *context, ACameraDevice *device) {
+                                                         ^
+D:/work/code/AndroidProjects/SurfaceViewTest/app/src/main/jni/native-camera2-jni.cpp:48:51: error: unknown type name 'ACameraDevice'
+static void camera_device_on_error(void *context, ACameraDevice *device, int error) {
+                                                  ^
+D:/work/code/AndroidProjects/SurfaceViewTest/app/src/main/jni/native-camera2-jni.cpp:52:53: error: unknown type name 'ACameraCaptureSession'
+static void capture_session_on_ready(void *context, ACameraCaptureSession *session) {
+                                                    ^
+D:/work/code/AndroidProjects/SurfaceViewTest/app/src/main/jni/native-camera2-jni.cpp:56:54: error: unknown type name 'ACameraCaptureSession'
+static void capture_session_on_active(void *context, ACameraCaptureSession *session) {
+                                                     ^
+D:/work/code/AndroidProjects/SurfaceViewTest/app/src/main/jni/native-camera2-jni.cpp:60:54: error: unknown type name 'ACameraCaptureSession'
+static void capture_session_on_closed(void *context, ACameraCaptureSession *session) {
+                                                     ^
+D:/work/code/AndroidProjects/SurfaceViewTest/app/src/main/jni/native-camera2-jni.cpp:77:24: error: unknown type name 'ACameraDevice_request_template'
+static void openCamera(ACameraDevice_request_template templateId)
+                       ^
+D:/work/code/AndroidProjects/SurfaceViewTest/app/src/main/jni/native-camera2-jni.cpp:79:5: error: unknown type name 'ACameraIdList'
+    ACameraIdList *cameraIdList = NULL;
+    ^
+D:/work/code/AndroidProjects/SurfaceViewTest/app/src/main/jni/native-camera2-jni.cpp:80:5: error: unknown type name 'ACameraMetadata'
+    ACameraMetadata *cameraMetadata = NULL;
+    ^
+D:/work/code/AndroidProjects/SurfaceViewTest/app/src/main/jni/native-camera2-jni.cpp:83:5: error: unknown type name 'camera_status_t'; did you mean 'media_status_t'?
+    camera_status_t camera_status = ACAMERA_OK;
+    ^~~~~~~~~~~~~~~
+    media_status_t
+D:/ANDROID_SDK/ndk/21.4.7075529/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\media/NdkMediaError.h:86:3: note: 'media_status_t' declared here
+} media_status_t;
+  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+ninja: build stopped: subcommand failed.

@@ -1,0 +1,3 @@
+D:/work/code/AndroidProjects/SurfaceViewTest/app/.cxx/Debug/6v145132/arm64-v8a/CMakeFiles/native-camera2-jni.dir
+D:/work/code/AndroidProjects/SurfaceViewTest/app/.cxx/Debug/6v145132/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/work/code/AndroidProjects/SurfaceViewTest/app/.cxx/Debug/6v145132/arm64-v8a/CMakeFiles/rebuild_cache.dir
